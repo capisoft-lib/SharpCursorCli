@@ -20,7 +20,8 @@
 # .env (machine-specific paths and secrets; use .env.example as template)
 .env
 
-# NuGet
+# NuGet (keep push script local so only we publish to nuget.org)
+scripts/push-nuget.ps1
 *.nupkg
 *.snupkg
 **/packages/
