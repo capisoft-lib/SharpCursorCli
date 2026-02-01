@@ -1,0 +1,45 @@
+# Build
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.scc
+*.sln.docstates
+
+# .env (machine-specific paths and secrets; use .env.example as template)
+.env
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite (example/storage DBs if created in repo)
+*.db
+*.db-shm
+*.db-wal

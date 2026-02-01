@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Capisoft.Lib.SharpCursorCli</RootNamespace>
+    <PackageId>Capisoft.Lib.SharpCursorCli</PackageId>
+    <Title>SharpCursorCli</Title>
+    <Description>C# wrapper for the Cursor CLI agent. Run the Cursor Agent from .NET with full parameter support, streaming, and optional SQLite persistence for conversation IDs.</Description>
+    <PackageTags>Cursor;CLI;Agent;CursorAgent;wrapper</PackageTags>
+    <IsPackable>true</IsPackable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capisoft.Lib.SharpCursorCli.Abstractions\Capisoft.Lib.SharpCursorCli.Abstractions.csproj" />
+    <ProjectReference Include="..\Capisoft.Lib.SharpCursorCli.Windows\Capisoft.Lib.SharpCursorCli.Windows.csproj" />
+    <ProjectReference Include="..\Capisoft.Lib.SharpCursorCli.Linux\Capisoft.Lib.SharpCursorCli.Linux.csproj" />
+    <ProjectReference Include="..\Capisoft.Lib.SharpCursorCli.OSX\Capisoft.Lib.SharpCursorCli.OSX.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>

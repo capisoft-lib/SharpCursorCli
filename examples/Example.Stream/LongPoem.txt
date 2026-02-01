@@ -1,0 +1,107 @@
+THE STREAM OF CURSOR
+A long poem to test the Cursor Wrapper stream.
+
+I.
+
+When midnight falls and screens glow blue,
+And every key taps soft and true,
+The cursor blinks where thoughts begin—
+A stream of words will pour within.
+
+II.
+
+From empty file to flowing text,
+Each character the next connects;
+The wrapper reads what agents send,
+And line by line the stream will bend.
+
+III.
+
+Through JSON lines and partial chunks,
+Past system init and terminal trunks,
+We trace the path from prompt to verse—
+The long poem flows, for better or worse.
+
+IV.
+
+Fifteen stanzas, four lines each,
+The meter runs without a breach;
+We test the stream from start to end,
+So every delta we can attend.
+
+V.
+
+In C# we await the async stream,
+And print each token, bit by bit it seems;
+SessionId and RequestId pass,
+While verses mount on lines of glass.
+
+VI.
+
+From idea first to keyboard tap,
+From model’s thought to printed map,
+The journey of the code we sing—
+How streams give back the very thing.
+
+VII.
+
+So run the example, watch it flow,
+Let every stanza come and go;
+The Cursor Wrapper earns its name
+When poems stream and tests don’t tame.
+
+VIII.
+
+O stream of Cursor, carry on,
+From dusk of prompt to dawn of done;
+We count the lines, we check the pace—
+A long poem fills the testing space.
+
+IX.
+
+No shortcut taken, no verse skipped,
+Each line from agent’s hand has slipped;
+We built this rhyme to stretch the pipe,
+So streaming runs both long and ripe.
+
+X.
+
+And when at last the result event,
+With DurationMs and session sent,
+We know the stream has served us well—
+A long poem told, a tale to tell.
+
+XI.
+
+From WorkingDirectory’s root,
+To every Console.Write and foot,
+The wrapper streams without a break—
+Enough to prove the path we take.
+
+XII.
+
+So here we close with one more verse,
+To make the test run long and terse;
+Twelve stanzas now have had their say—
+The stream has passed the test today.
+
+XIII.
+
+And if you run it once again,
+You’ll see the poem flow like rain;
+Each AssistantMessageEvent,
+Brings one more line we won’t forget.
+
+XIV.
+
+The InitEvent, the TerminalResult,
+With SessionId and no default—
+The stream is full, the poem long,
+And every test will sing this song.
+
+XV.
+
+So ends the poem, long and clear,
+For Stream and Cursor Wrapper here;
+Fifteen stanzas, sixty lines—
+Enough to test your streaming signs.

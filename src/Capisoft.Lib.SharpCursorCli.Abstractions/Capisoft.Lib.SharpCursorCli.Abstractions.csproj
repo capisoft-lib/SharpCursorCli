@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Capisoft.Lib.SharpCursorCli</RootNamespace>
+    <PackageId>Capisoft.Lib.SharpCursorCli.Abstractions</PackageId>
+    <Description>Abstractions and DTOs for the Cursor CLI agent wrapper (options, results, stream events).</Description>
+    <PackageTags>Cursor;CLI;Agent;Abstractions</PackageTags>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

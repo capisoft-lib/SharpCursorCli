@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Capisoft.Lib.SharpCursorCli</RootNamespace>
+    <PackageId>Capisoft.Lib.SharpCursorCli.OSX</PackageId>
+    <Description>macOS implementation of the Cursor CLI agent wrapper. Resolves agent path from .env (CURSOR_AGENT_PATH) or PATH.</Description>
+    <PackageTags>Cursor;CLI;Agent;OSX;macOS</PackageTags>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capisoft.Lib.SharpCursorCli.Abstractions\Capisoft.Lib.SharpCursorCli.Abstractions.csproj" />
+  </ItemGroup>
+</Project>
