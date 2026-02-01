@@ -6,7 +6,11 @@
     <Description>Windows implementation of the Cursor CLI agent wrapper. Resolves agent path from .env (CURSOR_AGENT_PATH) or PATH.</Description>
     <PackageTags>Cursor;CLI;Agent;Windows</PackageTags>
     <IsPackable>true</IsPackable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Capisoft.Lib.SharpCursorCli.Abstractions\Capisoft.Lib.SharpCursorCli.Abstractions.csproj" />
   </ItemGroup>

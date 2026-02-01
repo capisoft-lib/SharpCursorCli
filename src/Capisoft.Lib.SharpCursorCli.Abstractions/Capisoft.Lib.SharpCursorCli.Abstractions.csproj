@@ -6,5 +6,9 @@
     <Description>Abstractions and DTOs for the Cursor CLI agent wrapper (options, results, stream events).</Description>
     <PackageTags>Cursor;CLI;Agent;Abstractions</PackageTags>
     <IsPackable>true</IsPackable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 </Project>
