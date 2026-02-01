@@ -9,7 +9,15 @@ C# wrapper for the [Cursor CLI](https://cursor.com/docs/cli/overview) agent. Run
 
 ## Platform support
 
-The library provides implementations for **Windows**, **Linux**, and **macOS**. **Only Windows has been tested.** Linux and macOS builds are included and should work with the same API, but they have not been validated; feedback and PRs for those platforms are welcome.
+The library provides implementations for **Windows**, **Linux**, and **macOS**.
+
+| Platform | Status |
+|----------|--------|
+| Windows  | ✅ Tested |
+| Linux    | ⚠️ **Not tested** — builds included, same API expected |
+| macOS    | ⚠️ **Not tested** — builds included, same API expected |
+
+If you run SharpCursorCli successfully on **Linux** or **macOS**, please open an issue to confirm it works so we can update this section. Feedback and PRs for those platforms are welcome.
 
 ## Configuration
 
